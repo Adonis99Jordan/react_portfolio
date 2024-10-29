@@ -1,0 +1,41 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #777;
+}
+
+#root {
+    display: flex;
+    }
+
+/* Custom Nav bar styles */
+.navbar-custom {
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+.navbar-custom .nav-link.active {
+    font-weight: bold;
+    color: #f0ad4e;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #f0ad4e;
+}
